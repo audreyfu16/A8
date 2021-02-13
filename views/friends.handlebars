@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/css/garden.css">
+    <title>Friends</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="body">
+
+    <!--navigation bar-->
+    <div id="navBar" class="sidebar">
+        <a href="javascript:void(0)" class="closeMenu" onclick="closeNav()">&times;</a>
+        <a href="/">Home</a>
+        <a href="garden">Garden</a>
+        <a href="flowerpedia">Flowerpedia</a>
+        <a href="friends">Friends</a>
+    </div>
+
+    <div id="main">
+        <img src="images/menu icon.png" class="openMenu" onClick="openNav()">
+    </div>
+    <!--navigation end-->
+
+    <div class="header">
+        <h1>Friends</h1>
+    </div>
+
+    {{#each friendo}}
+		<div class="friendo" id="{{id}}">
+			<a href="friendo/{{name}}" class="gardenLink">
+				<img src="images/{{image}}" alt="Lorem Pixel image" class="fgarden">
+				<p>{{name}}</p>
+			</a>
+		</div>
+	{{/each}}
+
+    <!--JavaScript Code-->
+    <script src="/js/navbar.js"></script>
+</body>
+</html>

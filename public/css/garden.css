@@ -1,0 +1,90 @@
+h1 {
+    text-align: center;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 10px;
+    transition: 0.5s;
+}
+
+.sidebar a {
+    padding: 10px 8px 10px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #f5f5f5;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: rgb(165, 165, 165);
+}
+
+.sidebar .closeMenu {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.openMenu {
+    padding-top: 2px;
+    padding-left: 5px;
+    margin-bottom: -20px;
+    max-width: 30px;
+    top: 0;
+}
+
+@media screen and (max-height: 450 px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+}
+
+.garden img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+.garden {
+    padding-top: 15px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.focusTime {
+    margin-top: -5px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.focus {
+    padding-top: 20px;
+}
+
+.friendo {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fgarden {
+    width: 60vw;
+}
+
+.gardenLink {
+    text-align: center;
+}
