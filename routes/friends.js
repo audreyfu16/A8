@@ -13,6 +13,10 @@ exports.view = function(req, res){
         { 'name': 'Mandy Lee',
           'image': 'hilichurl.jpg',
           'id': 'Mandy'
+        },
+        { 'name': 'Mandy Lee',
+        'image': 'hilichurl.jpg',
+        'id': 'Mandy'
         }
       ]  
     });

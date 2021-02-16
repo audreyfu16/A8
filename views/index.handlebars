@@ -36,6 +36,7 @@
         <button type="button" class="reset" onclick="resetClick()">Reset</button>
     </div>
 
+
     <div class="dropdown">
         <label for="duration">Set Duration: </label>
 
@@ -44,8 +45,17 @@
             <option value="1800">30 min</option>
             <option value="2700">45 min</option>
             <option value="3600">1 hr</option>
+            <option value="5">5 sec</option>
         </select>
     </div>
+
+<div id="popup" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>These are the flowers you've grown!</p>
+    <button onclick="window.location.href='garden'">View Garden</button>
+  </div>
+</div>
 
     <!--JavaScript Code-->
     <script src="/js/navbar.js"></script>
