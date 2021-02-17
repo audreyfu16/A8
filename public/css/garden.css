@@ -1,5 +1,17 @@
 h1 {
     text-align: center;
+    margin-top: -18px;
+    margin-bottom: 9px;
+}
+
+.header {
+    border-bottom-style: solid;
+    border-width: 1px;
+}
+
+#growing {
+    margin-top: 10px;
+    display: none;
 }
 
 .sidebar {
@@ -60,6 +72,11 @@ h1 {
     padding-top: 15px;
 }
 
+.garden p {
+    margin-top: 10px;
+    padding-left: 12vw;
+}
+
 h2 {
     text-align: center;
 }
@@ -87,4 +104,11 @@ h2 {
 
 .gardenLink {
     text-align: center;
+}
+
+.tabs {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

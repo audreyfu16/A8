@@ -40,16 +40,60 @@ document.getElementById("timer").innerHTML = `
 </div>
 `;
 
+function growFlowers(){
+  var modal = document.getElementById("title");
+  modal.style.display = "none";
+  var modal = document.getElementById("growing");
+  modal.style.display = "block";
+  var modal = document.getElementById("icon");
+  modal.style.display = "none";
+  var modal = document.getElementById("growFlower");
+  modal.style.display = "flex";
+}
+
+function stopGrowing(){
+  var modal = document.getElementById("title");
+  modal.style.display = "block";
+  var modal = document.getElementById("growing");
+  modal.style.display = "none";
+  var modal = document.getElementById("icon");
+  modal.style.display = "block";
+  var modal = document.getElementById("growFlower");
+  modal.style.display = "none";
+}
+
 function startClick() {
+  var modal = document.getElementById("start");
+  modal.style.display = "none";
+  var modal = document.getElementById("choice");
+  modal.style.display = "none";
+  var modal = document.getElementById("pause");
+  modal.style.display = "block";
+  var modal = document.getElementById("cancel");
+  modal.style.display = "block";
+  growFlowers();
   isPaused = false;
  startTimer();
 }
 
 function pauseClick() {
+  var modal = document.getElementById("pause");
+  modal.style.display = "none";
+  var modal = document.getElementById("start");
+  modal.style.display = "block";
   isPaused = true;
 }
 
 function resetClick() {
+  var modal = document.getElementById("cancel");
+  modal.style.display = "none";
+  var modal = document.getElementById("pause");
+  modal.style.display = "none";
+  var modal = document.getElementById("start");
+  modal.style.display = "block";
+  var modal = document.getElementById("choice");
+  modal.style.display = "flex";
+  stopGrowing();
   isPaused = true;
   isDone = false;
   timePassed = 0;

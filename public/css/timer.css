@@ -1,12 +1,29 @@
 button {
     margin-left: 10px;
     margin-right: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+}
+
+.start {
+    display: block;
+}
+
+.after {
+    display: none;
+}
+
+.stop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .dropdown {
-    margin-top: 20px;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +41,7 @@ label {
 }
 
 .clock {
-    margin-top: 50px;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,8 +49,8 @@ label {
 
 .base-timer {
     position: relative;
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
 }
 
 .base-timer__circle {
@@ -48,8 +65,8 @@ label {
 
 .base-timer__label {
     position: absolute;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     top: 0;
     display: flex;
     align-items: center;
@@ -104,4 +121,17 @@ label {
     color: black;
     text-decoration: none;
     cursor: pointer;
+  }
+  
+  select {
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+  }
+
+  #growFlower {
+      margin-top: 20px;
+      height: 20vh;
+      display:none;
   }
