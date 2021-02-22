@@ -4,10 +4,16 @@
     grid-template-rows: repeat(2,20vh);
     grid-gap: 5px;
     justify-items: center;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .galleryFlower {
     width: 10vw;
     object-fit: cover;
 }
+
+p {
+	color: #23572E;
+	text-align: center;
+}
+

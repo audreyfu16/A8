@@ -28,37 +28,21 @@
     </div>
 
     <div class="gallery">
-        <figure class="flower sweetFlower">
-            <img src="images/sweetFlower.png" class="galleryFlower">
-        </figure>
-        <figure class="flower silkFlower">
-            <img src="images/silkFlower.png" class="galleryFlower">
-        </figure>
-        <figure class="flower qingxin">
-            <img src="images/qingxin.png" class="galleryFlower">
-        </figure>
-        <figure class="flower glazeLily">
-            <img src="images/glazeLily.png" class="galleryFlower">
-        </figure>
-        <figure class="flower cecilia">
-            <img src="images/cecilia.png" class="galleryFlower">
-        </figure>
-        <figure class="flower exile">
-            <img src="images/exile.png" class="galleryFlower">
-        </figure>
-        <figure class="flower sweetFlower">
-            <img src="images/sweetFlower.png" class="galleryFlower">
-        </figure>
-        <figure class="flower silkFlower">
-            <img src="images/silkFlower.png" class="galleryFlower">
-        </figure>
-        <figure class="flower qingxin">
-            <img src="images/qingxin.png" class="galleryFlower">
-        </figure>
-        
+        {{#each flower}}
+            <figure class="flower {{id}}">
+                <img src ="images/{{image}}" class="galleryFlower">
+                <p>{{name}}</p>
+            </figure>
+        {{/each}}
     </div>
+
 
     <!--JavaScript Code-->
     <script src="/js/navbar.js"></script>
 </body>
 </html>
+
+
+
+
+

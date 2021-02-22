@@ -6,11 +6,14 @@ button {
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 3px;
+    color: white;
+    background-color: #80997C;
 }
+
 
 .start {
     display: block;
-}
+    }
 
 .after {
     display: none;
@@ -135,3 +138,4 @@ label {
       height: 20vh;
       display:none;
   }
+
