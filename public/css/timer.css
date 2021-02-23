@@ -8,6 +8,7 @@ button {
     border-radius: 3px;
     color: white;
     background-color: #80997C;
+    font-family: 'Gill Sans';
 }
 
 
@@ -41,6 +42,7 @@ label {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .clock {
@@ -48,6 +50,8 @@ label {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Gill Sans';
+    color: #E193A1;
 }
 
 .base-timer {
@@ -139,3 +143,13 @@ label {
       display:none;
   }
 
+  #duration {
+    font-family: 'Gill Sans';
+    color: #23572E;
+    background-color:#FCF9EF;
+  }
+
+  .dropdown {
+    font-family: 'Gill Sans';
+    color: #23572E;
+}

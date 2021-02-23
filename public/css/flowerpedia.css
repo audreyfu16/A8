@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,20vh);
-    grid-gap: 5px;
     justify-items: center;
     padding-top: 30px;
 }
@@ -15,5 +14,6 @@
 p {
 	color: #23572E;
 	text-align: center;
+    font-family: 'Gill Sans';
 }
 

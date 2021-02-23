@@ -16,7 +16,7 @@ exports.view = function(req, res){
 	    		'image': 'qingxin.png',
 	    		'id': 'qingxin'
 	    	},
-	    	{	'name': 'Gaze Lily',
+	    	{	'name': 'Glaze Lily',
 	    		'image': 'glazeLily.png',
 	    		'id': 'glazeLily'
 	    	},
@@ -40,7 +40,7 @@ exports.view = function(req, res){
 	    		'image': 'qingxin.png',
 	    		'id': 'qingxin'
 	    	},
-	    	{	'name': 'Gaze Lily',
+	    	{	'name': 'Glaze Lily',
 	    		'image': 'glazeLily.png',
 	    		'id': 'glazeLily'
 	    	},

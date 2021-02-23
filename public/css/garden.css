@@ -90,16 +90,22 @@ body {
 .garden p {
     margin-top: 10px;
     padding-left: 12vw;
+    font-family: 'Gill Sans';
+    color: #23572E;
 }
 
-h2 {
+h3 {
     text-align: center;
+    font-family: 'Gill Sans';
+    color: #23572E;
 }
 
 .focusTime {
     margin-top: -5px;
     text-align: center;
     font-size: 40px;
+    font-family: 'Gill Sans';
+    color: #23572E;
 }
 
 .focus {
