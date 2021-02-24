@@ -27,12 +27,18 @@
     </div>
 
     <div class="tabs">
-        <img src="/images/tabs.png">
+        <ul class="switch">
+            <li><a href="#" id="Day" onClick="changeDay()">Day</a></li>
+            <li><a href="#" class="active" id="Week" onClick="changeWeek()">Week</a></li>
+            <li><a href="#" id="Month" onClick="changeMonth()">Month</a></li>
+        </ul>
     </div>
 
     <div class="container">
         <div class="garden">
-            <img src="/images/myGarden.jpg">
+            <img src="/images/myGarden.jpg" id="weekImg">
+            <img src="/images/exile.png" id="dayImg">
+            <img src="/images/cecilia.png" id="monthImg">
         </div>
         <div class="focus">
             <h3>This week you focused for:</h3>
@@ -42,5 +48,6 @@
 
     <!--JavaScript Code-->
     <script src="/js/navbar.js"></script>
+    <script src="/js/garden.js"></script>
 </body>
 </html>

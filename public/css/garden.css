@@ -83,6 +83,14 @@ body {
     width: 75%;
 }
 
+#dayImg{
+   display:none;
+}
+
+#monthImg {
+    display: none;
+}
+
 .garden {
     padding-top: 15px;
 }
@@ -90,13 +98,13 @@ body {
 .garden p {
     margin-top: 10px;
     padding-left: 12vw;
-    font-family: 'Avant Garde';
+    font-family: Arial, sans-serif;
     color: #23572E;
 }
 
 h3 {
     text-align: center;
-    font-family: 'Avant Garde';
+    font-family: Arial, sans-serif;
     color: #23572E;
 }
 
@@ -104,7 +112,7 @@ h3 {
     margin-top: -5px;
     text-align: center;
     font-size: 40px;
-    font-family: 'Avant Garde';
+    font-family: Arial, sans-serif;
     color: #23572E;
 }
 
@@ -117,7 +125,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Avant Garde';
+    font-family: Arial, sans-serif;
     color: #23572E;
 }
 
@@ -135,3 +143,44 @@ h3 {
     justify-content: center;
     align-items: center;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    min-width: 40px;
+    padding: 10px 16px;
+    text-decoration: none;
+    background-color: #61887F;
+}
+
+.switch {
+    padding: 10px;
+}
+
+.active {
+    background-color: #9EBEA5;
+}
+
+#Day {
+    border-top-left-radius:30px;
+    border-bottom-left-radius:30px;   
+}
+
+#Month {
+    border-top-right-radius:30px;
+    border-bottom-right-radius:30px;  
+}
+
+
