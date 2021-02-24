@@ -12,6 +12,7 @@ var index = require('./routes/index');
 var garden = require('./routes/garden');
 var flowerpedia = require('./routes/flowerpedia');
 var friends = require('./routes/friends');
+var login = require('./routes/login');
 // Example route
 // var user = require('./routes/user');
 
@@ -42,6 +43,7 @@ app.get('/', index.view);
 app.get('/garden', garden.view);
 app.get('/flowerpedia', flowerpedia.view);
 app.get('/friends', friends.view);
+app.get('/login', login.view);
 // Example route
 // app.get('/users', user.list);
 

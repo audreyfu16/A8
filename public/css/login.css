@@ -1,0 +1,102 @@
+h1 {
+    text-align: center;
+    margin-top: -18px;
+    margin-bottom: 9px;
+    font-family: "Flower";
+}
+
+body {
+    background-color: #E9F1D3;
+}
+
+@font-face {
+    font-family: "Flower";
+    src: url("../fonts/GamjaFlower-Regular.ttf");
+    font-style: normal;
+}
+
+.header {
+    border-bottom-style: solid;
+    border-width: 1px;
+    color: #23572E;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #657E61;
+    overflow-x: hidden;
+    padding-top: 10px;
+    transition: 0.5s;
+}
+
+.sidebar a {
+    padding: 10px 8px 10px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Flower";
+    color: #f5f5f5;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: rgb(165, 165, 165);
+}
+
+.sidebar .closeMenu {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.openMenu {
+    padding-top: 2px;
+    padding-left: 5px;
+    margin-bottom: -20px;
+    max-width: 30px;
+    top: 0;
+}
+
+@media screen and (max-height: 450 px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+}
+#login-form {
+  align-self: flex-start;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.login-form-field::placeholder {
+  color: #3a3a3a;
+}
+
+.login-form-field {
+  border: none;
+  border-bottom: 1px solid #3a3a3a;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  outline: none;
+  padding: 0px 0px 5px 5px;
+}
+
+#login-form-submit {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: #3a3a3a;
+  cursor: pointer;
+  outline: none;
+}
+

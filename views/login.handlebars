@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="/css/timer.css">
+    <title>Login</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body class="body">
+	<!--navigation bar-->
+    <div id="navBar" class="sidebar">
+        <a href="javascript:void(0)" class="closeMenu" onclick="closeNav()">&times;</a>
+        <a href="/">Home</a>
+        <a href="garden">Garden</a>
+        <a href="flowerpedia">Flowerpedia</a>
+        <a href="friends">Friends</a>
+        <a href="login">Login</a>
+    </div>
+
+    <div id="main">
+        <img src="images/menu icon.png" class="openMenu" onClick="openNav()">
+    </div>
+	<!--navigation end-->
+
+	<div class="header">
+        <h1>Login</h1>
+    </div>
+
+    <form id="login-form">
+      <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
+      <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+      <input type="submit" value="Login" id="login-form-submit">
+    </form>
+
+
+	<script src="/js/navbar.js"></script>
+	<script src="/js/garden.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
