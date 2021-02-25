@@ -39,11 +39,11 @@ if ('development' == app.get('env')) {
 }
 
 // Add routes here
-app.get('/', index.view);
+app.get('/', login.view);
 app.get('/garden', garden.view);
 app.get('/flowerpedia', flowerpedia.view);
 app.get('/friends', friends.view);
-app.get('/login', login.view);
+app.get('/index', index.view);
 // Example route
 // app.get('/users', user.list);
 

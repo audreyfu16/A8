@@ -10,10 +10,10 @@
 </head>
 
 <body class="body">
-	<!--navigation bar-->
+	{{!-- <!--navigation bar-->
     <div id="navBar" class="sidebar">
         <a href="javascript:void(0)" class="closeMenu" onclick="closeNav()">&times;</a>
-        <a href="/">Home</a>
+        <a href="/index">Home</a>
         <a href="garden">Garden</a>
         <a href="flowerpedia">Flowerpedia</a>
         <a href="friends">Friends</a>
@@ -23,18 +23,22 @@
     <div id="main">
         <img src="images/menu icon.png" class="openMenu" onClick="openNav()">
     </div>
-	<!--navigation end-->
+	<!--navigation end--> --}}
 
 	<div class="header">
         <h1>Login</h1>
     </div>
 
-    <form id="login-form">
+    <form id="login-form" action="/index">
       <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
       <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
-      <input type="submit" value="Login" id="login-form-submit">
+      {{!-- <input type="submit" value="Login" id="login-form-submit"> --}}
+      <button href="/index" type="submit">Login</button> 
     </form>
 
+    {{!-- <form action="/index">  
+    <button type="submit">Login</button> 
+    </form> --}}
 
 	<script src="/js/navbar.js"></script>
 	<script src="/js/garden.js"></script>
