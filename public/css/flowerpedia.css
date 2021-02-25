@@ -2,18 +2,25 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,20vh);
+    grid-gap: 1vw;
     justify-items: center;
+    align-content: center;
     padding-top: 30px;
 }
 
 .galleryFlower {
-    width: 10vw;
-    object-fit: cover;
+    width: 9vw;
+    object-fit: contain;
 }
 
 p {
 	color: #23572E;
 	text-align: center;
-    font-family: 'Gill Sans';
+    font-family: Arial, sans-serif;
 }
 
+.gContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
