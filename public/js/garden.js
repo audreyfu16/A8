@@ -5,6 +5,13 @@ function changeDay(){
     image.style.display = "none";
     var image = document.getElementById("dayImg");
     image.style.display = "block";
+
+    var text = document.getElementById("weekText");
+    text.style.display = "none";
+    var text = document.getElementById("monthText");
+    text.style.display = "none";
+    var text = document.getElementById("dayText");
+    text.style.display = "block";
     changeActive();
 }
 
@@ -15,6 +22,13 @@ function changeWeek(){
     image.style.display = "none";
     var image = document.getElementById("dayImg");
     image.style.display = "none";
+
+    var text = document.getElementById("weekText");
+    text.style.display = "block";
+    var text = document.getElementById("monthText");
+    text.style.display = "none";
+    var text = document.getElementById("dayText");
+    text.style.display = "none";
     changeActive();
 }
 
@@ -25,6 +39,13 @@ function changeMonth(){
     image.style.display = "block";
     var image = document.getElementById("dayImg");
     image.style.display = "none";
+
+    var text = document.getElementById("weekText");
+    text.style.display = "none";
+    var text = document.getElementById("monthText");
+    text.style.display = "block";
+    var text = document.getElementById("dayText");
+    text.style.display = "none";
     changeActive();
 }
 

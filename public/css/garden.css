@@ -184,4 +184,11 @@ li a {
     border-bottom-right-radius:30px;  
 }
 
+#dayText {
+    display: none;
+}
+
+#monthText {
+    display: none;
+}
 
