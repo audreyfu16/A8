@@ -86,6 +86,7 @@ body {
   border-radius: 3px;
   outline: none;
   padding: 0px 0px 5px 5px;
+
 }
 
 #login-form-submit {
@@ -98,5 +99,50 @@ body {
   background-color: #3a3a3a;
   cursor: pointer;
   outline: none;
+  position: absolute;
 }
+
+#username-field{
+  position: absolute;
+  width: 300px;
+  left: 32px;
+  top: 261px;
+  background-color: #E9F1D3;
+  border:none;
+  border-bottom: 1px solid #80997C;
+  padding: 5px 10px;
+  outline: none;
+}
+
+#password-field{
+  position: absolute;
+  width: 300px;
+  left: 32px;
+  top: 325px;
+  background-color: #E9F1D3;
+  border:none;
+  border-bottom: 1px solid #80997C;
+  padding: 5px 10px;
+  outline: none;
+}
+
+#submit_button{
+  position: absolute;
+  width: 213px;
+  height: 44px;
+  left: 81px;
+  top: 371px;
+
+  background: #80997C;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
 
