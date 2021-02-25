@@ -112,12 +112,17 @@ label {
     padding: 20px;
     border: 1px solid #888;
     width: 60%;
-    height: 30%;
+    height: 35%;
     text-align: center;
     font-family: 'Gill Sans';
     color: #23572E;
   }
   
+  #popupImg {
+      width: 35vw;
+      margin-bottom: 10px;
+  }
+
   .close {
     color: #aaa;
     float: right;
