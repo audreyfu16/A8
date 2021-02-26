@@ -147,6 +147,8 @@ label {
   #growFlower {
       margin-top: 20px;
       height: 20vh;
+      position:fixed;
+      bottom:0px;
       display:none;
   }
 
