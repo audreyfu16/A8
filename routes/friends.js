@@ -7,16 +7,16 @@ exports.view = function(req, res){
     res.render('friends', {
       'friendo': [
         { 'name': 'Audrey Fu',
-          'image': 'hilichurl.jpg',
+          'image': 'friendo1.png',
           'id': 'Audrey'
         },
         { 'name': 'Mandy Lee',
-          'image': 'hilichurl.jpg',
+          'image': 'friendo2.png',
           'id': 'Mandy'
         },
-        { 'name': 'Mandy Lee',
-        'image': 'hilichurl.jpg',
-        'id': 'Mandy'
+        { 'name': 'Avery Hom',
+        'image': 'friendo3.png',
+        'id': 'Avery'
         }
       ]  
     });

@@ -123,10 +123,10 @@ h3 {
 }
 
 .friendo {
-    margin-top: 30px;
-    display: inline-block;
-   /* margin-left: auto;
-    margin-right: auto;*/
+    margin-top: 25px;
+    display: block;
+    /* margin-left: 65px;
+    margin-right: auto; */
     font-family: Arial, sans-serif;
     color: #23572E;
     align-items: center;
