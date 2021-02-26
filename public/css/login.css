@@ -1,12 +1,22 @@
-h1 {
+/*h1 {
     text-align: center;
-    margin-top: -18px;
+    margin-top: 18px;
     margin-bottom: 9px;
     font-family: "Flower";
+}*/
+img {
+  top: 0;
+  left: 0;
 }
-
 body {
-    background-color: #E9F1D3;
+  margin: 0; 
+  padding: 0;
+  background-color : #E9F1D3;
+}
+button{
+    text-align: center;
+    position: absolute;
+    top: 50%;
 }
 
 @font-face {
@@ -15,11 +25,11 @@ body {
     font-style: normal;
 }
 
-.header {
+/*.header {
     border-bottom-style: solid;
-    border-width: 1px;
-    color: #23572E;
-}
+    /*border-width: 1px;*/
+    /*color: #23572E;
+}*/
 
 .sidebar {
     height: 100%;
@@ -86,6 +96,7 @@ body {
   border-radius: 3px;
   outline: none;
   padding: 0px 0px 5px 5px;
+  align-content: center;
 
 }
 
@@ -99,6 +110,7 @@ body {
   background-color: #3a3a3a;
   cursor: pointer;
   outline: none;
+  align-content: center;
   position: absolute;
 }
 
@@ -130,12 +142,52 @@ body {
   position: absolute;
   width: 213px;
   height: 44px;
-  left: 81px;
+  left: 80px;
   top: 371px;
-
+  align-content: center;
   background: #80997C;
+  align-self: center;
+  align-items: center;
+  text-align: center;
   border-radius: 10px;
+  /*box-shadow: 0px 10px 10px grey;*/
 }
+
+
+.other_text{
+  position: absolute;
+  left: 75px;
+  top: 435px;
+  display: flex;
+  font-family: "Flower";
+  display: flex;
+  color: #23572E;
+  flex-direction: column;
+  line-height: 0.5em;
+  justify-items: center;
+}
+
+#or{
+  text-align: center;
+  font-size: 25px;
+  
+}
+
+#sign{
+  text-align: center;
+  font-size: 16px;
+
+}
+#no_acc{
+  top: 80%;
+  font-size: 20px
+}
+
+
+
+
+
+
 
 
 

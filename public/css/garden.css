@@ -7,6 +7,8 @@ h1 {
 
 body {
     background-color: #E9F1D3;
+    align-items: center;
+    align-content: center;
 }
 
 @font-face {
@@ -17,7 +19,7 @@ body {
 
 .header {
     border-bottom-style: solid;
-    border-width: 1px;
+    /*border-width: 1px;*/
     color: #23572E;
 }
 
@@ -123,10 +125,17 @@ h3 {
 .friendo {
     margin-top: 30px;
     display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
+   /* margin-left: auto;
+    margin-right: auto;*/
     font-family: Arial, sans-serif;
     color: #23572E;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+.friendo image{
+    align-items: center;
 }
 
 .fgarden {
@@ -191,4 +200,6 @@ li a {
 #monthText {
     display: none;
 }
+
+
 
