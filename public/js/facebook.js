@@ -18,10 +18,17 @@ function statusChangeCallback(response) {
   }
 }
 
+var name = "hello";
 function changeUser(response){
     //Add code to change name and image 
     // $('facebookLogin').hide();
     $('#name').text(response.name);
+    $(location).attr('href', '/index')
+    name = text(response.name);
     // $('img#photo').attr("src", response.picture.data.url);
-    
+
+}
+
+function returnName(response){
+  return name;
 }

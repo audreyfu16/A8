@@ -10,13 +10,13 @@
 </head>
 
 <body class="body">
-	<h1 id="name">Scott Klemmer</h1>
+	<!-- <h1 id="name">Scott Klemmer</h1> -->
 	<!-- <div class="header">
         <h1>Login</h1>
     </div> -->
     <img src = "/images/blossomHeader.png" style="width:375px;">
 
-    <form id="login-form" action="/index">
+    <form id="login-form" action="/index" method = "GET">
       <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username" required>
       <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password" required>
       {{!-- <input type="submit" value="Login" id="login-form-submit"> --}}
@@ -28,7 +28,7 @@
     </form> --}}
 
 
-    {{!-- The below code is for sign up that we haven't implemented yet --}}
+
     <div class = other_text>
         <p id = or>-OR-</p>
         <p id = sign>Sign in with Facebook</p>
@@ -36,9 +36,10 @@
     </div>
     <div class="jumbotron">
         <p class = "facebookLogin">
-            <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+            <fb:login-button id = "fbLogin" scope="public_profile,email" onlogin="checkLoginState();" href="/index" >
             </fb:login-button>
         </p>
+        <a href="https://www.facebook.com help/570785306433644?helpref=hc_global_nav">Help on Facebook Accounts</a>
     <div class="jumbotron">
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="/js/bootstrap.min.js"></script>

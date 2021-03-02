@@ -6,9 +6,17 @@
     <title>Index</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    {{> facebook}}
+    <script src="/js/facebook.js"></script>
 </head>
 <body class="body">
-    <!-- <h1 id="name">Scott Klemmer</h1> -->
+    <!-- <p><%=request.getParameter("name") %></p> -->
+    <script>
+        // document.getElementById("write").innerHTML = window.location.search;
+        // document.write(returnName());
+    </script>
 
     <!--navigation bar-->
     <div id="navBar" class="sidebar">
@@ -69,6 +77,7 @@
     <!--JavaScript Code-->
     <script src="/js/navbar.js"></script>
     <script src="/js/timer.js"></script>
+    
 
 </body>
 </html>
