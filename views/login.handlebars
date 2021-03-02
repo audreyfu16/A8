@@ -31,8 +31,8 @@
     <img src = "/images/blossomHeader.png" style="width:375px;">
 
     <form id="login-form" action="/index">
-      <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
-      <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+      <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username" required>
+      <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password" required>
       {{!-- <input type="submit" value="Login" id="login-form-submit"> --}}
       <button  id = "submit_button" href="/index" type="submit">Login</button> 
     </form>
@@ -43,12 +43,12 @@
 
 
     {{!-- The below code is for sign up that we haven't implemented yet --}}
-    {{!-- <div class = other_text>
+    <div class = other_text>
         <p id = or>-OR-</p>
-        <p id = sign>Sign In With</p>
-        <p id = no_acc> Don't have an Account? SIGN UP</p>
+        <p id = sign>Sign in with Facebook</p>
+        {{!-- <p id = no_acc> Don't have an Account? SIGN UP</p> --}}
 
-    </div> --}}
+    </div>
 
 	<script src="/js/navbar.js"></script>
 	<script src="/js/garden.js"></script>
