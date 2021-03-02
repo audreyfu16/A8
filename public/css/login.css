@@ -9,7 +9,9 @@ img {
   left: 0;
 }
 .facebookLogin{
-  align-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 body {
   margin: 0; 
@@ -200,10 +202,14 @@ button{
 a {
   justify-items: center;
   align-content: center;
-  display: block;
   margin-left: auto;
   margin-right: auto;
   color : #657E61;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+  font-family: 'gill sans';
 }
 
 
