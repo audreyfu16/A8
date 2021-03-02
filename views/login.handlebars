@@ -10,21 +10,7 @@
 </head>
 
 <body class="body">
-	{{!-- <!--navigation bar-->
-    <div id="navBar" class="sidebar">
-        <a href="javascript:void(0)" class="closeMenu" onclick="closeNav()">&times;</a>
-        <a href="/index">Home</a>
-        <a href="garden">Garden</a>
-        <a href="flowerpedia">Flowerpedia</a>
-        <a href="friends">Friends</a>
-        <a href="login">Login</a>
-    </div>
-
-    <div id="main">
-        <img src="images/menu icon.png" class="openMenu" onClick="openNav()">
-    </div>
-	<!--navigation end--> --}}
-
+	<h1 id="name">Scott Klemmer</h1>
 	<!-- <div class="header">
         <h1>Login</h1>
     </div> -->
@@ -47,11 +33,20 @@
         <p id = or>-OR-</p>
         <p id = sign>Sign in with Facebook</p>
         {{!-- <p id = no_acc> Don't have an Account? SIGN UP</p> --}}
-
     </div>
-
+    <div class="jumbotron">
+        <p class = "facebookLogin">
+            <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+            </fb:login-button>
+        </p>
+    <div class="jumbotron">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
 	<script src="/js/navbar.js"></script>
 	<script src="/js/garden.js"></script>
+    {{> facebook}}
+    <script src="/js/facebook.js"></script>
+    <!-- <script src="/js/introHCI.js"></script> -->
 </body>
 </html>
 
