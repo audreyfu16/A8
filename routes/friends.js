@@ -5,7 +5,7 @@
 
 exports.view = function(req, res){
     res.render('friends', {
-      'friendo': [
+      'friends': [
         { 'name': 'Audrey Fu',
           'image': 'friendo1.png',
           'id': 'Audrey'
