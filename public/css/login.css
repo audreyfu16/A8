@@ -83,9 +83,11 @@ button{
     .sidebar {padding-top: 15px;}
     .sidebar a {font-size: 18px;}
 }
+
 #login-form {
-  align-self: flex-start;
-  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   justify-items: center;
   align-items: center;
 }
@@ -116,7 +118,6 @@ button{
   cursor: pointer;
   outline: none;
   align-content: center;
-  position: absolute;
 }
 
 #username-field{
@@ -172,7 +173,7 @@ button{
   align-content: center;
 
   display: block;
-  margin-top: 80%;
+  margin-top: 50vh;
   margin-left: auto;
   margin-right: auto;
 }
@@ -212,8 +213,21 @@ a {
   font-family: 'gill sans';
 }
 
+.header {
+  width: 100vw;
+  max-height: 200px;
+  text-align: center;
+  background-image: url("/images/header.png");
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
-
+.header h1 {
+  color: #ffffff;
+  font-family: "Flower";
+  font-weight: 200;
+  font-size: 48px;
+}
 
 
 

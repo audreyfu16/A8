@@ -4,10 +4,6 @@ h1 {
     margin-bottom: 9px;
     font-family: "Flower";
 }
-form{
-    align-items: 
-}
-
 
 
 body {
@@ -24,7 +20,7 @@ body {
 
 .header {
     border-bottom-style: solid;
-    /*border-width: 1px;*/
+    border-width: 2px;
     color: #23572E;
 }
 
@@ -147,6 +143,7 @@ h3 {
 
 .fgarden {
     width: 60vw;
+    max-width: 500px;
 }
 
 .form-group {
@@ -154,6 +151,7 @@ h3 {
     justify-content: center;
     align-items: center;
     font-family: 'Gill Sans';
+    margin-top: 20px;
 }
 
 .gardenLink {
@@ -201,6 +199,10 @@ li a {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .active {
@@ -225,5 +227,10 @@ li a {
     display: none;
 }
 
-
-
+.gardenDescription {
+    margin-top: -3px;
+    text-align: center;
+    margin-bottom: -10px;
+    font-family: Arial, sans-serif;
+    color: #23572E;
+}
