@@ -2,27 +2,27 @@
 	"flower":[
     	{	"name": "Sweet Flower",
     		"image": "sweetFlower.png",
-    		"id": "sweetFlower",
+    		"id": "sweetFlower"
     	},
     	{	"name": "Silk Flower",
     		"image": "silkFlower.png",
-    		"id": "silkFlower",
+    		"id": "silkFlower"
     	},
     	{	"name": "Qingxin",
     		"image": "qingxin.png",
-    		"id": "qingxin",
+    		"id": "qingxin"
     	},
     	{	"name": "Glaze Lily",
     		"image": "glazeLily.png",
-    		"id": "glazeLily",
+    		"id": "glazeLily"
     	},
     	{	"name": "Cecilia",
     		"image": "cecilia.png",
-    		"id": "cecilia",
+    		"id": "cecilia"
     	},
     	{	"name": "Exile",
     		"image": "exile.png",
-    		"id": "exile",
+    		"id": "exile"
     	}
 	]
 }
