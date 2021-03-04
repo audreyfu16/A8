@@ -109,7 +109,15 @@ h3 {
     text-align: center;
     margin-bottom: 10px;
     margin-top: 30px;
-    font-family:'Gill Sans';
+    font-family: Arial, sans-serif;
+    color: #23572E;
+}
+
+h4 {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-family: Arial, sans-serif;
     color: #23572E;
 }
 
@@ -231,6 +239,12 @@ li a {
     margin-top: -3px;
     text-align: center;
     margin-bottom: -10px;
+    font-family: Arial, sans-serif;
+    color: #23572E;
+}
+
+.welcome p {
+    text-align: center;
     font-family: Arial, sans-serif;
     color: #23572E;
 }
