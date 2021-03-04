@@ -237,6 +237,7 @@ li a {
 
 .gardenDescription {
     margin-top: -3px;
+    padding-top: 10px;
     text-align: center;
     margin-bottom: -10px;
     font-family: Arial, sans-serif;
@@ -244,7 +245,21 @@ li a {
 }
 
 .welcome p {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 10px;
+    font-size: 12pt;
     text-align: center;
+    font-family: Arial, sans-serif;
+    color: #23572E;
+}
+
+.friendsDescription {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: -10px;
     font-family: Arial, sans-serif;
     color: #23572E;
 }
